@@ -36,8 +36,8 @@ function setup() {
 function draw() {
   background(0);
   textSize(height/15);
-  text(myline,width-50,height-50);
-  fill(myline+' of '+story.length,100,100);
+  text(myline+" of "+story.length,width-250,height-50);
+  fill(myline,100,100);
   x= width; // to start set x at width
   let mywords = split(story[myline],' ');
   print(mywords, myline)
